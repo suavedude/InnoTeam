@@ -1,0 +1,147 @@
+{
+    "source": {
+    "db_type": "oracle",
+    "hostname": "10.0.1.30",
+    "dbname": "vora1src",
+    "username": "delphixdb",
+    "password": "gAAAAABgsBq43y8mZZFDPeW6VDWLBchL3nGXj0Q6ZF809iLNt10C3hK2Dqj0XV12nmMn2iYMI6oRiFVIwtZn9Q80L9y2XuPlJQ==",
+    "dbport": 1521,
+    "jdbc": "N"
+    },
+    "target": {
+    "db_type": "oracle",
+    "hostname": "10.0.1.30",
+    "dbname": "vora1",
+    "username": "delphixdb",
+    "password": "gAAAAABgsBq4TJp3_PmTM0VcB6Ksr_jR3PG-Cnw8wT5yV5lQfkj9d6BLtaLmslAFn0nVMi0qo4Jg0sul1zcPBNJOn9NctS9jSA==",
+    "dbport": 1521,
+    "jdbc": "N"
+  },"tables": [
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_04",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_04",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_01",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_01",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "ADDRESS",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "ADDRESS",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_02",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_02",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_03",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_03",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_05",
+            "target_schema": "delphixdb",
+            "target_table": "CED_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+          {
+            "source_schema": "delphixdb",
+            "source_table": "CUSTOMER_DEMOGRAPHICS_05",
+            "target_schema": "delphixdb",
+            "target_table": "CD_1M",
+            "filterKey": "N/A",
+            "unloadSplit": "4",
+            "unloadCols": "*",
+            "splitSizeMB": "1094"
+          },
+  ]
+       }
